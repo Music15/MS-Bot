@@ -630,7 +630,7 @@ client.on('message', message => {
 
 
 `
-  if(message.content === prefix + 'help-music') {
+  if(message.content === prefix + 'help music') {
             message.delete(1000)
     let e = '\`Commands have been sent private\`'
 	  message.reply(e).then(m => m.delete(10000))
